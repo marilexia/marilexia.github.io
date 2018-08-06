@@ -60,13 +60,18 @@
 /*}*/
 
 
-.about-me-caption, p {
+.about-me-caption, .experience-caption, p {
   width: 750px;
-  font-family: Consolas, "courier new";
-	font-size: 16px
+  /*font-family: Consolas, "courier new";*/
+  /*font-family: 'Crimson Text', serif;*/
+  font-family: 'Merriweather', serif;
+  letter-spacing: 3px;
+	font-size: 13px
 }
 
 .sidenote {
-  font-size: 8.5px
+  font-family: 'Merriweather', serif;
+  font-size: 8.5px;
+  text-align: center
 }
 
