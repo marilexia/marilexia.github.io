@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Rockwell";
+  font-size: 60px;
+  font-weight: normal;
+
+}
+
+h2 {
+  font-family: "Andale Mono";
+  font-size: 30px;
+/*   font-style: italic; */
+  font-weight: normal;
+}
+
+body {
+  background-color: #fff7fd;
+  background: url("https://external-preview.redd.it/mSmrz8OrCbEVZk7uv5u-tNzFRrs1d_QGvZLG8bYHQbo.jpg?blur=40&format=pjpg&auto=webp&s=61e2c50fe57919604173b2b2e2fa4b12bd60b2e7") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div {
+  height: 500px;
+}
+
+.name-input {
+  margin: 20px;
+  padding: 15px 15px;
+  font-size: 18px;
+  font-family: "Helvetica Neue";
+}
+
+label {
+  font-family: "Didot";
+  font-size: 28px;
+  font-style: italic;
+}
+
+.button1, .button2 {
+  display: block;
+  margin: 20px;
+  padding: 12px 18px;
+  background: lightyellow;
+  font-size: 20px;
+  font-family: "Helvetica Neue";
+  border-radius: 10px;
+}
+
+
+.result {
+  font-family: 'Courier New';
+  font-size: 30px;
+  margin: 20px;
+  padding: 20px 20px;
+  }
+
+
+input[type=radio] {
+    border: 10px;
+    width: 2%;
+    height: 2em;
+}
