@@ -1,0 +1,53 @@
+input {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+#pink {
+  border: 4px solid violet;
+}
+
+#red {
+    border: 4px solid red;
+}
+
+#yellow {
+  border: 4px solid orange;
+}
+
+#blue{
+  border: 4px solid blue;
+}
+
+#green {
+  border: 4px solid green;
+}
+
+#violet {
+  border: 4px solid purple;
+}
+
+h1, p {
+  font-family: "American Typewriter";
+  font-weight: lighter;
+  color: black;
+}
+
+p {
+  font-size: 15px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e6cfff;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: #ccffd4;
+}

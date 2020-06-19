@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="mm-style.css">
+  </head>
+
+  <body>
+    <center>
+      <br><br><br><br><br><br>
+
+      <h1>Press the buttons to play and pause sound effects!</h1>
+
+      <div>
+
+        <input type = "image" id = "pink" onclick = "playAlien()" src = "https://image.flaticon.com/icons/png/512/1236/1236167.png"/>
+
+        <input type = "image" id = "red" onclick = "playAlien1()" src="https://image.flaticon.com/icons/png/512/2909/2909556.png" />
+
+        <input type = "image" id = "yellow" onclick = "playAlien2()" src = "https://image.flaticon.com/icons/png/512/1970/1970352.png" />
+
+        <input type = "image" id = "blue" onclick = "playAlien3()" src = "https://image.flaticon.com/icons/svg/1970/1970177.svg" />
+
+        <input type = "image" id = "green" onclick = "playAlien4()" src = "https://image.flaticon.com/icons/svg/2776/2776863.svg"/>
+
+      </div>
+              <br><br>
+      <div>
+
+        <h1>Check out the chosen Theme Song!</h1>
+
+        <input type = "image" id = "violet" onclick = "playThemeSong()" src = "https://image.flaticon.com/icons/png/512/2368/2368182.png"/>
+
+      </div>
+
+      <div class="footer">
+          <p>
+            <b> Audio Sources: </b>
+            <a href = "https://simpleguics2pygame.readthedocs.io/en/latest/_static/links/snd_links.html">Galaxy Invaders by Igor Petetskih</a>
+        </p>
+      </div>
+
+
+        <audio id = "alienSound" src = "http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/pause.wav" type = "audio/wav"></audio>
+
+        <audio id = "alienSound1" src = "http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/alien_shoot.wav" type = "audio/wav"></audio>
+
+        <audio id = "alienSound2" src = "http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/bonus.wav" type = "audio/wav"></audio>
+
+        <audio id = "alienSound3" src = "http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/player_shoot.wav" type = "audio/wav"></audio>
+
+        <audio id = "alienSound4" src = "http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/explosion_02.wav" type = "audio/wav"></audio>
+
+      <audio id = "alienSound5" src = "http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3" type = "audio/mp3"></audio>
+
+
+
+        <script>
+        var alien = document.getElementById("alienSound");
+        var alien1 = document.getElementById("alienSound1");
+        var alien2 = document.getElementById("alienSound2");
+        var alien3 = document.getElementById("alienSound3");
+        var alien4 = document.getElementById("alienSound4");
+        var alien5 = document.getElementById("alienSound5");
+
+          function playAlien(){
+            if (alien.paused) {
+                  alien.play();
+              }
+              else {
+                  alien.pause();
+              }
+          }
+
+          function playAlien1(){
+            if (alien1.paused) {
+                  alien1.play();
+              }
+              else {
+                  alien1.pause();
+              }
+          }
+
+          function playAlien2(){
+            if (alien2.paused) {
+                  alien2.play();
+              }
+              else {
+                  alien2.pause();
+              }
+          }
+
+          function playAlien3(){
+            if (alien3.paused) {
+                  alien3.play();
+              }
+              else {
+                  alien3.pause();
+              }
+          }
+
+          function playAlien4(){
+            if (alien4.paused) {
+                  alien4.play();
+              }
+              else {
+                  alien4.pause();
+              }
+          }
+
+          function playThemeSong() {
+              if (alien5.paused) {
+                  alien5.play();
+              }
+              else {
+                  alien5.pause();
+              }
+          }
+
+
+        </script>
+
+
+
+
+    </center>
+  </body>
+</html>
