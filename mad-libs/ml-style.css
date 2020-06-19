@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Helvetica Neue";
+  font-size: 60px;
+  color: #48B0C7;
+}
+
+body {
+  background: #F1DBCF;
+}
+
+div {
+  height: 500px;
+}
+
+.noun-input, .verb-input, .adj-input {
+  margin: 20px;
+  padding: 15px 15px;
+  font-size: 18px;
+  font-family: "Helvetica Neue";
+}
+
+.button1, .button2 {
+/*   display: block; */
+  margin: 20px;
+  padding: 12px 18px;
+  background: #EBCD51;
+  font-size: 20px;
+  font-family: "Helvetica Neue";
+  border-radius: 10px;
+}
+
+
+.result {
+  font-family: 'Helvetica Neue';
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 20px 20px;
+/*   border-radius: 20px;*/
+  }
