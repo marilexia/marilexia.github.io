@@ -7,6 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -196,6 +197,11 @@ input, select, textarea {
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
+		}
+
+		.resume {
+			display: inline-block;
+			width: 565px;
 		}
 
 	h1 {
@@ -1659,5 +1665,3 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-		
-	
